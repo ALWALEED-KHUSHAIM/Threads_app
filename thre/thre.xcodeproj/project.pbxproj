@@ -20,6 +20,7 @@
 		30D119EC2A9220F40013A055 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D119EB2A9220F40013A055 /* MainView.swift */; };
 		30D119EE2A9221380013A055 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D119ED2A9221380013A055 /* Token.swift */; };
 		30D119F02A92DF0D0013A055 /* WelcomeScreneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D119EF2A92DF0D0013A055 /* WelcomeScreneView.swift */; };
+		30EF11932A930746006B3637 /* Cardretwet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EF11922A930746006B3637 /* Cardretwet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		30D119EB2A9220F40013A055 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		30D119ED2A9221380013A055 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		30D119EF2A92DF0D0013A055 /* WelcomeScreneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreneView.swift; sourceTree = "<group>"; };
+		30EF11922A930746006B3637 /* Cardretwet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardretwet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				30D119ED2A9221380013A055 /* Token.swift */,
+				30EF11922A930746006B3637 /* Cardretwet.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				30D119F02A92DF0D0013A055 /* WelcomeScreneView.swift in Sources */,
 				30D119EE2A9221380013A055 /* Token.swift in Sources */,
 				30D119EC2A9220F40013A055 /* MainView.swift in Sources */,
+				30EF11932A930746006B3637 /* Cardretwet.swift in Sources */,
 				30D119D02A921E7B0013A055 /* ContentView.swift in Sources */,
 				30D119E32A921F900013A055 /* NewPost.swift in Sources */,
 				30D119E52A921FB00013A055 /* ActivetiView.swift in Sources */,

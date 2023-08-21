@@ -9,14 +9,25 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-       VStack {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-           Button {
+  VStack {
+      
+       ScrollView {
+           Image("logoapp").resizable().frame(width: 60,height: 60).clipShape(Circle())
+           CardRetwite()
+           CardRetwite()
+           CardRetwite()
+           CardRetwite()
+           CardRetwite()
+           CardRetwite()
+           CardRetwite()
+           CardRetwite()
+                       Button {
                Gwt().Token = ""
            } label: {
-               Text("OnboardingView")
+               Text("sineout")
            }
         }
+  }.background(Color.black.opacity(0.0))
     }
 }
 
