@@ -14,13 +14,19 @@ struct MainView: View {
             HomeView()
             
                 .tabItem {
-                    Label("Home", systemImage: "lightbulb.fill")
+                    Label("Home", systemImage: "house")
                 }
             SershView()
                 .tabItem {
                     Label("Search", systemImage: "magnifyingglass")
                 }
-            ActivetiView()
+            NewPost()
+                .tabItem {
+                    Label("New Post", systemImage: "swift")
+                    
+                }
+
+            ActivetiView() 
                 .tabItem {
                     Label("ActivetiView", systemImage: "heart")
                     

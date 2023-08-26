@@ -18,6 +18,8 @@ struct CardRetwite: View {
                 
                 AsyncImage(url: URL(string: "https://source.unsplash.com/392x200/?[stars]%22")).frame(width: 50,height: 50).clipShape(Circle()).padding(.leading).padding(.top)
                 Spacer()
+                Text("_______").foregroundColor(.black.opacity(0.1))
+                Text(" ")
             }.frame(height: 500).background()
             
             
@@ -51,7 +53,7 @@ Information technology (IT) is the use of computer systems or devices to access 
                     Image(systemName: "paperplane")
                 }.padding(.top,3)
                     .padding(.trailing,250)
-                
+                Text("___________________________________").foregroundColor(.black.opacity(0.1))
             }.frame(width: 320,height: 500).background().padding(.trailing).padding(.trailing)
         }
     }

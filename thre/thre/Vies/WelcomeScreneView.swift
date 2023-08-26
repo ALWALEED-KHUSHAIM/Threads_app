@@ -9,16 +9,16 @@ import SwiftUI
 
 struct WelcomeScreneView: View {
     var body: some View {
-        NavigationStack{ HStack{
+         HStack{
             ZStack{
                 Image("welcome_imege 1").resizable()
                 NavigationLink(destination:  SheckTheToken().navigationBarBackButtonHidden(true)) {
                     Text(" ").frame(width: 410,height: 820)
-                }.navigationBarBackButtonHidden(true)
+                }
             }
           
         }
-        }
+        
     }}
 
 struct WelcomeScreneView_Previews: PreviewProvider {

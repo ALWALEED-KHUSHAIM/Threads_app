@@ -8,8 +8,89 @@
 import SwiftUI
 
 struct ProfileView: View {
+    @State var page: Text = Text("you havent posted any Threads yet.")
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+            VStack{
+               
+                HStack{
+                    VStack(alignment: .leading){
+                        Text( " A").font(.title).bold()
+                            .padding(.vertical, 8)
+                        
+                        Text( " wf_vip")
+                    }
+                    Spacer()
+                    AsyncImage(url: URL(string: "https://source.unsplash.com/392x200/?[stars]%22")).frame(width: 75,height: 75).clipShape(Circle())
+                }.padding(.horizontal)
+                HStack{
+                    Text( " 23 followers").foregroundColor(Color.gray)
+                    Spacer()
+                }.padding(.horizontal)
+                HStack{
+                    Button {
+                        
+                    } label: {
+                        Text( " Edit profile").frame(width: 175,height: 30).border(Color.gray.opacity(0.4)).foregroundColor(Color.black)
+                    }
+                    Spacer()
+                    Button {
+                        
+                    } label: {
+                        Text( " Shere profile").frame(width: 175,height: 30).border(Color.gray.opacity(0.4)).foregroundColor(Color.black)
+                    }
+                }.padding()
+                HStack{
+                    Button {
+                        page = Text("you havent posted any Threads yet.")
+                    } label: {
+                        Text( " Threads").frame(width: 110,height: 30).foregroundColor(Color.black)
+                        
+                    }
+                    Button {
+                        page = Text("you havent posted any redlies yet.")
+                    } label: {
+                        Text( "Redlies").frame(width: 110,height: 30).foregroundColor(Color.black)
+                    }
+                    Button {
+                        page = Text("you havent reposted any redlies yet.")
+                    } label: {
+                        Text( "Reposts").frame(width: 110,height: 30).foregroundColor(Color.black)
+                    }
+                    
+                    
+                    
+                    
+                }
+                Divider()
+                VStack{
+                    Spacer()
+                    
+                    page
+                    
+                    Spacer()
+                    
+                }
+                Spacer()
+            }.padding(.top)
+            .navigationBarTitleDisplayMode(.inline)
+                .toolbar { // <2>
+                    ToolbarItem(placement: .principal) { // <3>
+                        HStack{
+                            Button(
+                                action: {
+                                    Gwt().Token = ""
+                                }, label: {
+                                    Image("logouticon").resizable().frame(width: 35,height: 35)
+                                })
+                            
+                            Spacer()
+                            Image(systemName: "swift")
+                            Image(systemName: "swift")
+                        }
+                    }
+                }
+        }
     }
 }
 

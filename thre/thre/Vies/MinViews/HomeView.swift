@@ -9,10 +9,11 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
+        NavigationView{
   VStack {
       
        ScrollView {
-           Image("logoapp").resizable().frame(width: 60,height: 60).clipShape(Circle())
+           Image("logoapp").resizable().frame(width: 60,height: 70)
            CardRetwite()
            CardRetwite()
            CardRetwite()
@@ -21,13 +22,18 @@ struct HomeView: View {
            CardRetwite()
            CardRetwite()
            CardRetwite()
-                       Button {
-               Gwt().Token = ""
-           } label: {
-               Text("sineout")
-           }
+                       
         }
-  }.background(Color.black.opacity(0.0))
+  }.navigationBarTitleDisplayMode(.inline)
+                .toolbar { // <2>
+                    ToolbarItem(placement: .principal) { // <3>
+                        HStack {
+                           
+                            
+                        }.padding(.horizontal,20)
+                    }
+                }
+            }
     }
 }
 

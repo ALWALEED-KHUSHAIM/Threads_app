@@ -8,15 +8,20 @@
 import SwiftUI
 
 struct SheckTheToken: View {
+   
     @ObservedObject var token = Gwt()
    
     var body: some View {
-        if token.Token == ""{
-            OnboardingView()
-        }else {
+        
+      
+        
+        if token.Token == "Wf_vip" && Gwt().password == "12345" {
             MainView()
+            
+        } else   {
+            OnboardingView()
         }
-       }
+    }
 }
 
 struct SheckTheToken_Previews: PreviewProvider {

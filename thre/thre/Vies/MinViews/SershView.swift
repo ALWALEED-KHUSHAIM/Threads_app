@@ -8,8 +8,34 @@
 import SwiftUI
 
 struct SershView: View {
+   
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+        VStack{
+            
+           
+            SearshbarComb()
+            
+            ScrollView(){
+                ForEach(0...6,id: \.self){_ in
+                    CardSearsh()
+                        .padding(.top)
+                    Divider()
+                    
+                   
+                }
+            }.padding(.top)
+        }.navigationBarTitleDisplayMode(.inline)
+            .toolbar { // <2>
+                ToolbarItem(placement: .principal) { // <3>
+                    HStack {
+                        Text("Searsh").font(.title).bold()
+                        Spacer()
+                        
+                    }.padding(.bottom)
+                }
+            }
+        }
     }
 }
 

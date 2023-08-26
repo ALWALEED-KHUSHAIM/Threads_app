@@ -13,8 +13,8 @@ struct OnboardingView: View {
         ZStack{Image("OnboardingImage").resizable()
             VStack{Spacer()
                 
-                Button {
-                    Gwt().Token = "0"
+                NavigationLink {
+                    LoginPage()
                 } label: {
                     Text(" ").frame(width: 340,height: 77).background(Color.black.opacity(0.0)).cornerRadius(16).padding(.vertical,4)
                 }

@@ -11,7 +11,8 @@ import SwiftUI
 struct threApp: App {
     var body: some Scene {
         WindowGroup {
+            NavigationStack{
             WelcomeScreneView()
-        }
+        }}
     }
 }

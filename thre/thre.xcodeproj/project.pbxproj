@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		30D119CE2A921E7B0013A055 /* threApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D119CD2A921E7B0013A055 /* threApp.swift */; };
-		30D119D02A921E7B0013A055 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D119CF2A921E7B0013A055 /* ContentView.swift */; };
+		30D119D02A921E7B0013A055 /* ShekingToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D119CF2A921E7B0013A055 /* ShekingToken.swift */; };
 		30D119D22A921E7E0013A055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D119D12A921E7E0013A055 /* Assets.xcassets */; };
 		30D119D52A921E7E0013A055 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D119D42A921E7E0013A055 /* Preview Assets.xcassets */; };
 		30D119DF2A921F530013A055 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D119DE2A921F530013A055 /* HomeView.swift */; };
@@ -21,12 +21,19 @@
 		30D119EE2A9221380013A055 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D119ED2A9221380013A055 /* Token.swift */; };
 		30D119F02A92DF0D0013A055 /* WelcomeScreneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D119EF2A92DF0D0013A055 /* WelcomeScreneView.swift */; };
 		30EF11932A930746006B3637 /* Cardretwet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EF11922A930746006B3637 /* Cardretwet.swift */; };
+		30EF11972A95773F006B3637 /* CardSearsh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EF11962A95773F006B3637 /* CardSearsh.swift */; };
+		30EF11992A959C4C006B3637 /* SearshbarComb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EF11982A959C4C006B3637 /* SearshbarComb.swift */; };
+		30EF119C2A95CCE3006B3637 /* CardNewPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EF119B2A95CCE3006B3637 /* CardNewPost.swift */; };
+		30EF119F2A95E3BE006B3637 /* CardActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EF119E2A95E3BE006B3637 /* CardActivity.swift */; };
+		30EF11A32A9884A1006B3637 /* Threadscomp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EF11A22A9884A1006B3637 /* Threadscomp.swift */; };
+		30EF11A62A99926C006B3637 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EF11A52A99926C006B3637 /* LoginPage.swift */; };
+		30EF11AC2A99E2F2006B3637 /* bhhh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EF11AB2A99E2F2006B3637 /* bhhh.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30D119CA2A921E7B0013A055 /* thre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thre.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D119CD2A921E7B0013A055 /* threApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threApp.swift; sourceTree = "<group>"; };
-		30D119CF2A921E7B0013A055 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		30D119CF2A921E7B0013A055 /* ShekingToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShekingToken.swift; sourceTree = "<group>"; };
 		30D119D12A921E7E0013A055 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		30D119D42A921E7E0013A055 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		30D119DE2A921F530013A055 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -39,6 +46,13 @@
 		30D119ED2A9221380013A055 /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
 		30D119EF2A92DF0D0013A055 /* WelcomeScreneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreneView.swift; sourceTree = "<group>"; };
 		30EF11922A930746006B3637 /* Cardretwet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardretwet.swift; sourceTree = "<group>"; };
+		30EF11962A95773F006B3637 /* CardSearsh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardSearsh.swift; sourceTree = "<group>"; };
+		30EF11982A959C4C006B3637 /* SearshbarComb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearshbarComb.swift; sourceTree = "<group>"; };
+		30EF119B2A95CCE3006B3637 /* CardNewPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardNewPost.swift; sourceTree = "<group>"; };
+		30EF119E2A95E3BE006B3637 /* CardActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardActivity.swift; sourceTree = "<group>"; };
+		30EF11A22A9884A1006B3637 /* Threadscomp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Threadscomp.swift; sourceTree = "<group>"; };
+		30EF11A52A99926C006B3637 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		30EF11AB2A99E2F2006B3637 /* bhhh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bhhh.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +113,12 @@
 		30D119DC2A921EE20013A055 /* Vies */ = {
 			isa = PBXGroup;
 			children = (
-				30D119CF2A921E7B0013A055 /* ContentView.swift */,
+				30EF11AA2A99E1EE006B3637 /* AuthViws */,
 				30D119E82A92203A0013A055 /* MinViews */,
 				30D119E92A9220C10013A055 /* OnboardingView.swift */,
 				30D119EB2A9220F40013A055 /* MainView.swift */,
 				30D119EF2A92DF0D0013A055 /* WelcomeScreneView.swift */,
+				30EF11AB2A99E2F2006B3637 /* bhhh.swift */,
 			);
 			path = Vies;
 			sourceTree = "<group>";
@@ -111,6 +126,10 @@
 		30D119DD2A921EF20013A055 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				30EF11A02A988445006B3637 /* TabBarButtonCastom */,
+				30EF119D2A95E38E006B3637 /* Activity */,
+				30EF119A2A95CC9B006B3637 /* NewPostCombon */,
+				30EF11952A95771C006B3637 /* Searshcombon */,
 				30D119ED2A9221380013A055 /* Token.swift */,
 				30EF11922A930746006B3637 /* Cardretwet.swift */,
 			);
@@ -127,6 +146,56 @@
 				30D119E02A921F740013A055 /* SershView.swift */,
 			);
 			path = MinViews;
+			sourceTree = "<group>";
+		};
+		30EF11952A95771C006B3637 /* Searshcombon */ = {
+			isa = PBXGroup;
+			children = (
+				30EF11962A95773F006B3637 /* CardSearsh.swift */,
+				30EF11982A959C4C006B3637 /* SearshbarComb.swift */,
+			);
+			path = Searshcombon;
+			sourceTree = "<group>";
+		};
+		30EF119A2A95CC9B006B3637 /* NewPostCombon */ = {
+			isa = PBXGroup;
+			children = (
+				30EF119B2A95CCE3006B3637 /* CardNewPost.swift */,
+			);
+			path = NewPostCombon;
+			sourceTree = "<group>";
+		};
+		30EF119D2A95E38E006B3637 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				30EF119E2A95E3BE006B3637 /* CardActivity.swift */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		30EF11A02A988445006B3637 /* TabBarButtonCastom */ = {
+			isa = PBXGroup;
+			children = (
+				30EF11A22A9884A1006B3637 /* Threadscomp.swift */,
+			);
+			path = TabBarButtonCastom;
+			sourceTree = "<group>";
+		};
+		30EF11A42A9990DF006B3637 /* ShecingPage */ = {
+			isa = PBXGroup;
+			children = (
+				30D119CF2A921E7B0013A055 /* ShekingToken.swift */,
+			);
+			path = ShecingPage;
+			sourceTree = "<group>";
+		};
+		30EF11AA2A99E1EE006B3637 /* AuthViws */ = {
+			isa = PBXGroup;
+			children = (
+				30EF11A52A99926C006B3637 /* LoginPage.swift */,
+				30EF11A42A9990DF006B3637 /* ShecingPage */,
+			);
+			path = AuthViws;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,17 +268,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30EF119C2A95CCE3006B3637 /* CardNewPost.swift in Sources */,
+				30EF11972A95773F006B3637 /* CardSearsh.swift in Sources */,
 				30D119DF2A921F530013A055 /* HomeView.swift in Sources */,
 				30D119F02A92DF0D0013A055 /* WelcomeScreneView.swift in Sources */,
+				30EF119F2A95E3BE006B3637 /* CardActivity.swift in Sources */,
 				30D119EE2A9221380013A055 /* Token.swift in Sources */,
 				30D119EC2A9220F40013A055 /* MainView.swift in Sources */,
 				30EF11932A930746006B3637 /* Cardretwet.swift in Sources */,
-				30D119D02A921E7B0013A055 /* ContentView.swift in Sources */,
+				30D119D02A921E7B0013A055 /* ShekingToken.swift in Sources */,
 				30D119E32A921F900013A055 /* NewPost.swift in Sources */,
+				30EF11AC2A99E2F2006B3637 /* bhhh.swift in Sources */,
+				30EF11A62A99926C006B3637 /* LoginPage.swift in Sources */,
 				30D119E52A921FB00013A055 /* ActivetiView.swift in Sources */,
 				30D119E12A921F740013A055 /* SershView.swift in Sources */,
+				30EF11A32A9884A1006B3637 /* Threadscomp.swift in Sources */,
 				30D119EA2A9220C10013A055 /* OnboardingView.swift in Sources */,
 				30D119E72A921FCA0013A055 /* ProfileView.swift in Sources */,
+				30EF11992A959C4C006B3637 /* SearshbarComb.swift in Sources */,
 				30D119CE2A921E7B0013A055 /* threApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
