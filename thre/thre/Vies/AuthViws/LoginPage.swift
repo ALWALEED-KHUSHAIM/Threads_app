@@ -21,7 +21,7 @@ struct LoginPage: View {
             }
             HStack{
                 
-                TextField("password", text: Gwt().$password).frame(width: 360,height: 44).padding(8).background(Color.white).cornerRadius(8).padding(8)
+                SecureField("password", text: Gwt().$password).frame(width: 360,height: 44).padding(8).background(Color.white).cornerRadius(8).padding(8)
             }
             
             NavigationLink {
