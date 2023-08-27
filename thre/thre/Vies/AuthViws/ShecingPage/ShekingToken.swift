@@ -15,11 +15,11 @@ struct SheckTheToken: View {
         
       
         
-        if token.Token == "Wf_vip" && Gwt().password == "12345" {
-            MainView()
+        if token.Token == ""  {
             
-        } else   {
             OnboardingView()
+        } else   {
+            MainView()
         }
     }
 }

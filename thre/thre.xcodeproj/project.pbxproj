@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		30A1EA6C2A9B34F600C4705D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30A1EA6B2A9B34F600C4705D /* GoogleService-Info.plist */; };
 		30A1EA6F2A9B369F00C4705D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 30A1EA6E2A9B369F00C4705D /* FirebaseAuth */; };
+		30A1EA762A9B9D5500C4705D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30A1EA752A9B9D5500C4705D /* GoogleService-Info.plist */; };
 		30D119CE2A921E7B0013A055 /* threApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D119CD2A921E7B0013A055 /* threApp.swift */; };
 		30D119D02A921E7B0013A055 /* ShekingToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D119CF2A921E7B0013A055 /* ShekingToken.swift */; };
 		30D119D22A921E7E0013A055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D119D12A921E7E0013A055 /* Assets.xcassets */; };
@@ -33,7 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		30A1EA6B2A9B34F600C4705D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		30A1EA752A9B9D5500C4705D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		30D119CA2A921E7B0013A055 /* thre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thre.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D119CD2A921E7B0013A055 /* threApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threApp.swift; sourceTree = "<group>"; };
 		30D119CF2A921E7B0013A055 /* ShekingToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShekingToken.swift; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		30D119CC2A921E7B0013A055 /* thre */ = {
 			isa = PBXGroup;
 			children = (
-				30A1EA6B2A9B34F600C4705D /* GoogleService-Info.plist */,
+				30A1EA752A9B9D5500C4705D /* GoogleService-Info.plist */,
 				30D119DD2A921EF20013A055 /* ViewModel */,
 				30D119DC2A921EE20013A055 /* Vies */,
 				30D119CD2A921E7B0013A055 /* threApp.swift */,
@@ -261,7 +261,7 @@
 			files = (
 				30D119D52A921E7E0013A055 /* Preview Assets.xcassets in Resources */,
 				30D119D22A921E7E0013A055 /* Assets.xcassets in Resources */,
-				30A1EA6C2A9B34F600C4705D /* GoogleService-Info.plist in Resources */,
+				30A1EA762A9B9D5500C4705D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
