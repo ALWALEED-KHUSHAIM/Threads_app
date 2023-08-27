@@ -85,8 +85,8 @@ struct ProfileView: View {
                                 })
                             
                             Spacer()
-                            Image(systemName: "swift")
-                            Image(systemName: "swift")
+                            Image("pngtree-instagram-icon-instagram-logo-png-image_3584853").resizable().frame(width: 40,height: 40)
+                            Image( "pngtree-settings-icon-image_1198988").resizable().frame(width: 35,height: 35)
                         }
                     }
                 }

@@ -14,14 +14,12 @@ struct HomeView: View {
       
        ScrollView {
            Image("logoapp").resizable().frame(width: 60,height: 70)
-           CardRetwite()
-           CardRetwite()
-           CardRetwite()
-           CardRetwite()
-           CardRetwite()
-           CardRetwite()
-           CardRetwite()
-           CardRetwite()
+           ForEach (0...10 , id: \.self){_ in
+               NavigationLink(destination: CardRetwite() ){
+                   CardRetwite()
+               }.isDetailLink(true)
+           }
+       
                        
         }
   }.navigationBarTitleDisplayMode(.inline)

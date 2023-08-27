@@ -87,7 +87,6 @@
 			children = (
 				30D119DD2A921EF20013A055 /* ViewModel */,
 				30D119DC2A921EE20013A055 /* Vies */,
-				30D119DB2A921ED00013A055 /* Model */,
 				30D119CD2A921E7B0013A055 /* threApp.swift */,
 				30D119D12A921E7E0013A055 /* Assets.xcassets */,
 				30D119D32A921E7E0013A055 /* Preview Content */,
@@ -101,13 +100,6 @@
 				30D119D42A921E7E0013A055 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		30D119DB2A921ED00013A055 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		30D119DC2A921EE20013A055 /* Vies */ = {

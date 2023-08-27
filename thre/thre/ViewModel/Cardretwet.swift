@@ -25,7 +25,7 @@ struct CardRetwite: View {
             
             VStack{
                 HStack{
-                    Text("ALWALEED-KHUSHAIM")
+                    Text("ALWALEED-KHUSHAIM").foregroundColor(Color.black)
                         .bold()
                     
                         .padding(2)
@@ -33,13 +33,13 @@ struct CardRetwite: View {
                     Text("4h")
                         .font(.callout)
                         .foregroundColor(Color.gray)
-                    Image(systemName: "ellipsis")
+                    Image(systemName: "ellipsis").foregroundColor(Color.black)
                     
                 }
                 
                 Text("""
 Information technology (IT) is the use of computer systems or devices to access information. Information technology is responsible for such a large portion of our workforce, business operations and personal access to information that it comprises much of our daily activities.
-""").padding(.bottom,20)
+""").foregroundColor(Color.black).padding(.bottom,20)
                 
                 
                 AsyncImage(url: URL(string: "https://source.unsplash.com/392x200/?[stars]%22"))
@@ -47,10 +47,10 @@ Information technology (IT) is the use of computer systems or devices to access 
                     .cornerRadius(10).padding(.trailing).padding(.trailing)
                 
                 HStack{
-                    Image(systemName: "heart")
-                    Image(systemName: "bubble.middle.bottom")
-                    Image(systemName: "arrow.2.squarepath")
-                    Image(systemName: "paperplane")
+                    Image(systemName: "heart").foregroundColor(Color.black)
+                    Image(systemName: "bubble.middle.bottom").foregroundColor(Color.black)
+                    Image(systemName: "arrow.2.squarepath").foregroundColor(Color.black)
+                    Image(systemName: "paperplane").foregroundColor(Color.black)
                 }.padding(.top,3)
                     .padding(.trailing,250)
                 Text("___________________________________").foregroundColor(.black.opacity(0.1))
