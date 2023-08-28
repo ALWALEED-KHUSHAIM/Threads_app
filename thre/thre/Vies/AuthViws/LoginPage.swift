@@ -16,37 +16,46 @@ struct LoginPage: View {
     var body: some View {
         if boolpage == true {
             
-            SheckTheToken() }
+            SheckTheToken().navigationBarBackButtonHidden(true) }
         else {
             VStack{
                 Spacer()
-        HStack{
-            
-            Image("pngtree-instagram-icon-instagram-logo-png-image_3584853").resizable().frame(width: 130,height: 130).padding(.bottom,70)
-        }
+                HStack{
+                    
+                    Image("pngtree-instagram-icon-instagram-logo-png-image_3584853").resizable().frame(width: 130,height: 130).padding(.bottom,70)
+                }
+                Text("log in").font(.title).padding()
                 HStack{
                     
                     TextField("Username", text: $Username).frame(width: 360,height: 44).padding(8).background(Color.white).cornerRadius(8)
                 }
+                
                 HStack{
                     
                     SecureField("password", text: $password).frame(width: 360,height: 44).padding(8).background(Color.white).cornerRadius(8).padding(8)
                 }
                 
                 Button(action: {
-                    foo(username: Username, Password: password)
+                    signIn(username: Username, Password: password)
                 },
-                 label: {
+                       label: {
                     Text("Log in").frame(width: 340,height: 30).foregroundColor(Color.white).padding(8).padding(.horizontal).background(Color.blue).cornerRadius(35)
                 }).padding(.bottom)
                 
-                HStack{texteror.foregroundColor(Color.red).frame(width: 350,height: 100).padding() }
-                Spacer()
-            }.background(Color.gray.gradient.opacity(0.3))
+                VStack{
+                    NavigationLink {
+                        sineup()
+                    } label: {
+                        Text(" creat acawnt")
+                    }
+                    
+                    HStack{texteror.foregroundColor(Color.red).frame(width: 350,height: 100).padding() }}
+                    Spacer()
+                 }.background(Color.gray.gradient.opacity(0.3))
+            }
         }
-    }
-    func foo(username:String,Password:String){
-        Auth.auth().createUser(withEmail: username, password: Password){ok,erorr
+    func signIn(username:String,Password:String){
+        Auth.auth().signIn(withEmail: username, password: Password){ok,erorr
             in
             if erorr == nil {
                 Gwt().Token = "token"

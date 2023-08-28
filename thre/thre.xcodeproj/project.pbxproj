@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		30A1EA6F2A9B369F00C4705D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 30A1EA6E2A9B369F00C4705D /* FirebaseAuth */; };
 		30A1EA762A9B9D5500C4705D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30A1EA752A9B9D5500C4705D /* GoogleService-Info.plist */; };
+		30A1EA782A9C673E00C4705D /* sineup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A1EA772A9C673E00C4705D /* sineup.swift */; };
 		30D119CE2A921E7B0013A055 /* threApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D119CD2A921E7B0013A055 /* threApp.swift */; };
 		30D119D02A921E7B0013A055 /* ShekingToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D119CF2A921E7B0013A055 /* ShekingToken.swift */; };
 		30D119D22A921E7E0013A055 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30D119D12A921E7E0013A055 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 
 /* Begin PBXFileReference section */
 		30A1EA752A9B9D5500C4705D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		30A1EA772A9C673E00C4705D /* sineup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sineup.swift; sourceTree = "<group>"; };
 		30D119CA2A921E7B0013A055 /* thre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thre.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30D119CD2A921E7B0013A055 /* threApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = threApp.swift; sourceTree = "<group>"; };
 		30D119CF2A921E7B0013A055 /* ShekingToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShekingToken.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 		30EF11AA2A99E1EE006B3637 /* AuthViws */ = {
 			isa = PBXGroup;
 			children = (
+				30A1EA772A9C673E00C4705D /* sineup.swift */,
 				30EF11A52A99926C006B3637 /* LoginPage.swift */,
 				30EF11A42A9990DF006B3637 /* ShecingPage */,
 			);
@@ -287,6 +290,7 @@
 				30D119E52A921FB00013A055 /* ActivetiView.swift in Sources */,
 				30D119E12A921F740013A055 /* SershView.swift in Sources */,
 				30EF11A32A9884A1006B3637 /* Threadscomp.swift in Sources */,
+				30A1EA782A9C673E00C4705D /* sineup.swift in Sources */,
 				30D119EA2A9220C10013A055 /* OnboardingView.swift in Sources */,
 				30D119E72A921FCA0013A055 /* ProfileView.swift in Sources */,
 				30EF11992A959C4C006B3637 /* SearshbarComb.swift in Sources */,
